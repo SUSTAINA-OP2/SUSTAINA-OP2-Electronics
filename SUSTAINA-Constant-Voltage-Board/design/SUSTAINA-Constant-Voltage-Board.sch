@@ -12566,6 +12566,21 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/</text>
 <wire x1="-2.9972" y1="0" x2="2.9972" y2="0" width="0.1524" layer="51"/>
 <wire x1="2.9972" y1="0" x2="2.9972" y2="2.8956" width="0.1524" layer="51"/>
 </package>
+<package name="BM02B-SRSS-TB">
+<smd name="1" x="-0.5" y="3.277590625" dx="0.6604" dy="1.5494" layer="1"/>
+<smd name="2" x="0.5" y="3.277590625" dx="0.6604" dy="1.5494" layer="1"/>
+<smd name="3" x="-1.8" y="0.752590625" dx="1.905" dy="1.2954" layer="1" rot="R90"/>
+<smd name="4" x="1.8" y="0.752590625" dx="1.905" dy="1.2954" layer="1" rot="R90"/>
+<wire x1="2.1336" y1="2.032" x2="2.1336" y2="3.0226" width="0.1524" layer="21"/>
+<wire x1="2.1336" y1="3.0226" x2="1.1684" y2="3.0226" width="0.1524" layer="21"/>
+<wire x1="-2.1336" y1="3.0226" x2="-2.1336" y2="2.032" width="0.1524" layer="21"/>
+<wire x1="-1.1684" y1="3.0226" x2="-2.1336" y2="3.0226" width="0.1524" layer="21"/>
+<wire x1="-1.9812" y1="0" x2="1.9812" y2="0" width="0.1524" layer="51"/>
+<wire x1="1.9812" y1="0" x2="1.9812" y2="2.8956" width="0.1524" layer="51"/>
+<wire x1="1.9812" y1="2.8956" x2="-1.9812" y2="2.8956" width="0.1524" layer="51"/>
+<wire x1="-1.9812" y1="2.8956" x2="-1.9812" y2="0" width="0.1524" layer="51"/>
+<text x="0" y="-1.27" size="1" layer="27" ratio="6" rot="SR0" align="center">&gt;Name</text>
+</package>
 </packages>
 <symbols>
 <symbol name="BM04B-SRSS-TB">
@@ -12579,6 +12594,16 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/</text>
 <text x="2.54" y="2.54" size="1.778" layer="97" ratio="10" align="center">BM04B-SRSS-TB</text>
 <pin name="3" x="-2.54" y="-7.62" visible="pin" length="middle"/>
 <pin name="4" x="-2.54" y="-10.16" visible="pin" length="middle"/>
+</symbol>
+<symbol name="BM02B-SRSS-TB">
+<pin name="1" x="-2.54" y="-2.54" length="middle" direction="pas"/>
+<pin name="2" x="-2.54" y="-5.08" length="middle" direction="pas"/>
+<wire x1="0" y1="0" x2="0" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="0" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<text x="2.54" y="5.08" size="1.778" layer="95" ratio="10" align="center">&gt;NAME</text>
+<text x="2.54" y="2.54" size="1.778" layer="97" ratio="10" align="center">BM02B-SRSS-TB</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -12596,6 +12621,29 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/</text>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BM02B-SRSS-TB" prefix="CH">
+<gates>
+<gate name="A" symbol="BM02B-SRSS-TB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BM02B-SRSS-TB">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER_1" value="455-1788-2-ND" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER_2" value="455-1788-1-ND" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER_3" value="455-1788-6-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BM02B-SRSS-TB (LF)(SN)" constant="no"/>
+<attribute name="MFR_NAME" value="JST" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -12672,6 +12720,14 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/</text>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="CH6" library="SH-Connecters" deviceset="BM04B-SRSS-TB" device=""/>
 <part name="CH7" library="SH-Connecters" deviceset="BM04B-SRSS-TB" device=""/>
+<part name="CH8" library="SH-Connecters" deviceset="BM02B-SRSS-TB" device=""/>
+<part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="CH9" library="SH-Connecters" deviceset="BM02B-SRSS-TB" device=""/>
+<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="CH10" library="SH-Connecters" deviceset="BM02B-SRSS-TB" device=""/>
+<part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="CH11" library="SH-Connecters" deviceset="BM02B-SRSS-TB" device=""/>
+<part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12683,11 +12739,12 @@ Interrupting voltage rated 8.5V max. 9V</text>
 <text x="185.42" y="25.4" size="3.81" layer="94" ratio="10" align="center-left">SUSTAINA Constant Voltage Board</text>
 <text x="266.7" y="15.24" size="5.08" layer="94" ratio="10" align="center-left">1.0</text>
 <text x="274.32" y="5.08" size="5.08" layer="94" ratio="10" align="center-left">1/1</text>
-<wire x1="88.9" y1="0" x2="88.9" y2="119.38" width="0.1524" layer="97" style="longdash"/>
+<wire x1="88.9" y1="0" x2="88.9" y2="60.96" width="0.1524" layer="97" style="longdash"/>
+<wire x1="88.9" y1="60.96" x2="88.9" y2="119.38" width="0.1524" layer="97" style="longdash"/>
 <wire x1="88.9" y1="119.38" x2="0" y2="119.38" width="0.1524" layer="97" style="longdash"/>
 <wire x1="88.9" y1="119.38" x2="165.1" y2="119.38" width="0.1524" layer="97" style="longdash"/>
 <wire x1="165.1" y1="119.38" x2="297" y2="119.38" width="0.1524" layer="97" style="longdash"/>
-<wire x1="165.1" y1="45.72" x2="165.1" y2="119.38" width="0.1524" layer="97" style="longdash"/>
+<wire x1="165.1" y1="45.72" x2="165.1" y2="60.96" width="0.1524" layer="97" style="longdash"/>
 <text x="170.18" y="106.68" size="3.81" layer="97">QWIIC
 (I2C I/F Connecter)</text>
 <text x="93.98" y="111.76" size="3.81" layer="97">USB / RS485 Conv. Module</text>
@@ -12702,6 +12759,9 @@ Interrupting voltage rated 8.5V max. 9V</text>
 18.0　V　-　1.318　kohm
 24.0　V　-　0.585　kohm
 28.0　V　-　0.310　kohm</text>
+<text x="93.98" y="53.34" size="3.81" layer="97">DC Fans</text>
+<wire x1="165.1" y1="60.96" x2="165.1" y2="119.38" width="0.1524" layer="97" style="longdash"/>
+<wire x1="88.9" y1="60.96" x2="165.1" y2="60.96" width="0.1524" layer="97" style="longdash"/>
 </plain>
 <instances>
 <instance part="F1" gate="G$1" x="48.26" y="172.72" smashed="yes">
@@ -12794,11 +12854,11 @@ Interrupting voltage rated 8.5V max. 9V</text>
 <instance part="GND7" gate="1" x="60.96" y="7.62" smashed="yes">
 <attribute name="VALUE" x="58.42" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="M3" gate="G$1" x="111.76" y="91.44" smashed="yes">
-<attribute name="NAME" x="124.46" y="96.52" size="1.778" layer="95" align="center"/>
+<instance part="M3" gate="G$1" x="111.76" y="101.6" smashed="yes">
+<attribute name="NAME" x="124.46" y="106.68" size="1.778" layer="95" align="center"/>
 </instance>
-<instance part="GND8" gate="1" x="104.14" y="55.88" smashed="yes">
-<attribute name="VALUE" x="101.6" y="53.34" size="1.778" layer="96"/>
+<instance part="GND8" gate="1" x="104.14" y="66.04" smashed="yes">
+<attribute name="VALUE" x="101.6" y="63.5" size="1.778" layer="96"/>
 </instance>
 <instance part="CH1" gate="G$1" x="17.78" y="170.18" smashed="yes">
 <attribute name="NAME" x="17.78" y="180.34" size="1.778" layer="95" ratio="10" align="center"/>
@@ -12866,6 +12926,30 @@ Interrupting voltage rated 8.5V max. 9V</text>
 </instance>
 <instance part="CH7" gate="G$1" x="251.46" y="78.74" smashed="yes" rot="MR180">
 <attribute name="NAME" x="254" y="73.66" size="1.778" layer="95" ratio="10" rot="MR180" align="center"/>
+</instance>
+<instance part="CH8" gate="A" x="114.3" y="38.1" smashed="yes" rot="MR180">
+<attribute name="NAME" x="116.84" y="33.02" size="1.778" layer="95" ratio="10" rot="MR180" align="center"/>
+</instance>
+<instance part="GND21" gate="1" x="106.68" y="30.48" smashed="yes">
+<attribute name="VALUE" x="104.14" y="27.94" size="1.778" layer="96"/>
+</instance>
+<instance part="CH9" gate="A" x="134.62" y="38.1" smashed="yes" rot="MR180">
+<attribute name="NAME" x="137.16" y="33.02" size="1.778" layer="95" ratio="10" rot="MR180" align="center"/>
+</instance>
+<instance part="GND22" gate="1" x="127" y="30.48" smashed="yes">
+<attribute name="VALUE" x="124.46" y="27.94" size="1.778" layer="96"/>
+</instance>
+<instance part="CH10" gate="A" x="114.3" y="12.7" smashed="yes" rot="MR180">
+<attribute name="NAME" x="116.84" y="7.62" size="1.778" layer="95" ratio="10" rot="MR180" align="center"/>
+</instance>
+<instance part="GND23" gate="1" x="106.68" y="5.08" smashed="yes">
+<attribute name="VALUE" x="104.14" y="2.54" size="1.778" layer="96"/>
+</instance>
+<instance part="CH11" gate="A" x="132.08" y="12.7" smashed="yes" rot="MR180">
+<attribute name="NAME" x="134.62" y="7.62" size="1.778" layer="95" ratio="10" rot="MR180" align="center"/>
+</instance>
+<instance part="GND24" gate="1" x="124.46" y="5.08" smashed="yes">
+<attribute name="VALUE" x="121.92" y="2.54" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -12936,12 +13020,12 @@ Interrupting voltage rated 8.5V max. 9V</text>
 </segment>
 <segment>
 <pinref part="M3" gate="G$1" pin="GND-1"/>
-<wire x1="109.22" y1="86.36" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="86.36" x2="104.14" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="96.52" x2="104.14" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="96.52" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="M3" gate="G$1" pin="GND-2"/>
-<wire x1="104.14" y1="78.74" x2="104.14" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="78.74" x2="104.14" y2="78.74" width="0.1524" layer="91"/>
-<junction x="104.14" y="78.74"/>
+<wire x1="104.14" y1="88.9" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="88.9" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
+<junction x="104.14" y="88.9"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -13024,6 +13108,30 @@ Interrupting voltage rated 8.5V max. 9V</text>
 <pinref part="GND20" gate="1" pin="GND"/>
 <pinref part="CH7" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="CH8" gate="A" pin="1"/>
+<wire x1="111.76" y1="40.64" x2="106.68" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="40.64" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="CH9" gate="A" pin="1"/>
+<wire x1="132.08" y1="40.64" x2="127" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="127" y1="40.64" x2="127" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="GND22" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="CH10" gate="A" pin="1"/>
+<wire x1="111.76" y1="15.24" x2="106.68" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="15.24" x2="106.68" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="GND23" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="CH11" gate="A" pin="1"/>
+<wire x1="129.54" y1="15.24" x2="124.46" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="15.24" x2="124.46" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="LED_DCDC-IN" class="3">
 <segment>
@@ -13078,8 +13186,8 @@ Interrupting voltage rated 8.5V max. 9V</text>
 </segment>
 <segment>
 <pinref part="M3" gate="G$1" pin="A-RS485-DP"/>
-<wire x1="139.7" y1="88.9" x2="142.24" y2="88.9" width="0.1524" layer="91"/>
-<label x="142.24" y="88.9" size="1.778" layer="95"/>
+<wire x1="139.7" y1="99.06" x2="142.24" y2="99.06" width="0.1524" layer="91"/>
+<label x="142.24" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A-DM" class="1">
@@ -13090,8 +13198,8 @@ Interrupting voltage rated 8.5V max. 9V</text>
 </segment>
 <segment>
 <pinref part="M3" gate="G$1" pin="A-RS485-DM"/>
-<wire x1="139.7" y1="86.36" x2="142.24" y2="86.36" width="0.1524" layer="91"/>
-<label x="142.24" y="86.36" size="1.778" layer="95"/>
+<wire x1="139.7" y1="96.52" x2="142.24" y2="96.52" width="0.1524" layer="91"/>
+<label x="142.24" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B-DP" class="1">
@@ -13102,8 +13210,8 @@ Interrupting voltage rated 8.5V max. 9V</text>
 </segment>
 <segment>
 <pinref part="M3" gate="G$1" pin="B-RS485-DP"/>
-<wire x1="139.7" y1="81.28" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
-<label x="142.24" y="81.28" size="1.778" layer="95"/>
+<wire x1="139.7" y1="91.44" x2="142.24" y2="91.44" width="0.1524" layer="91"/>
+<label x="142.24" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B-DM" class="1">
@@ -13114,8 +13222,8 @@ Interrupting voltage rated 8.5V max. 9V</text>
 </segment>
 <segment>
 <pinref part="M3" gate="G$1" pin="B-RS485-DM"/>
-<wire x1="139.7" y1="78.74" x2="142.24" y2="78.74" width="0.1524" layer="91"/>
-<label x="142.24" y="78.74" size="1.778" layer="95"/>
+<wire x1="139.7" y1="88.9" x2="142.24" y2="88.9" width="0.1524" layer="91"/>
+<label x="142.24" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C-DP" class="1">
@@ -13126,8 +13234,8 @@ Interrupting voltage rated 8.5V max. 9V</text>
 </segment>
 <segment>
 <pinref part="M3" gate="G$1" pin="C-RS485-DP"/>
-<wire x1="139.7" y1="73.66" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
-<label x="142.24" y="73.66" size="1.778" layer="95"/>
+<wire x1="139.7" y1="83.82" x2="142.24" y2="83.82" width="0.1524" layer="91"/>
+<label x="142.24" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C-DM" class="1">
@@ -13138,8 +13246,8 @@ Interrupting voltage rated 8.5V max. 9V</text>
 </segment>
 <segment>
 <pinref part="M3" gate="G$1" pin="C-RS485-DM"/>
-<wire x1="139.7" y1="71.12" x2="142.24" y2="71.12" width="0.1524" layer="91"/>
-<label x="142.24" y="71.12" size="1.778" layer="95"/>
+<wire x1="139.7" y1="81.28" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
+<label x="142.24" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D-DP" class="1">
@@ -13150,8 +13258,8 @@ Interrupting voltage rated 8.5V max. 9V</text>
 </segment>
 <segment>
 <pinref part="M3" gate="G$1" pin="D-RS485-DP"/>
-<wire x1="139.7" y1="66.04" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
-<label x="142.24" y="66.04" size="1.778" layer="95"/>
+<wire x1="139.7" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
+<label x="142.24" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D-DM" class="1">
@@ -13162,8 +13270,8 @@ Interrupting voltage rated 8.5V max. 9V</text>
 </segment>
 <segment>
 <pinref part="M3" gate="G$1" pin="D-RS485-DM"/>
-<wire x1="139.7" y1="63.5" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
-<label x="142.24" y="63.5" size="1.778" layer="95"/>
+<wire x1="139.7" y1="73.66" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
+<label x="142.24" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DCDC_IN" class="2">
@@ -13296,6 +13404,30 @@ Interrupting voltage rated 8.5V max. 9V</text>
 <pinref part="CH5" gate="G$1" pin="2"/>
 <pinref part="CH5" gate="G$1" pin="6"/>
 <label x="55.88" y="35.56" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="CH8" gate="A" pin="2"/>
+<wire x1="111.76" y1="43.18" x2="106.68" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="43.18" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
+<label x="106.68" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CH9" gate="A" pin="2"/>
+<wire x1="132.08" y1="43.18" x2="127" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="127" y1="43.18" x2="127" y2="48.26" width="0.1524" layer="91"/>
+<label x="127" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CH10" gate="A" pin="2"/>
+<wire x1="111.76" y1="17.78" x2="106.68" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="17.78" x2="106.68" y2="22.86" width="0.1524" layer="91"/>
+<label x="106.68" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CH11" gate="A" pin="2"/>
+<wire x1="129.54" y1="17.78" x2="124.46" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="17.78" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
+<label x="124.46" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DCDC_OUT" class="2">
