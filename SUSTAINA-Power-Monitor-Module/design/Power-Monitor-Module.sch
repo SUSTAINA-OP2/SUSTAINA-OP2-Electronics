@@ -10331,7 +10331,7 @@ Source: www.kingbright.com</description>
 <text x="170.18" y="205.74" size="5.08" layer="97" align="top-left">I2C Address Selection by Shortland</text>
 <text x="5.08" y="132.08" size="5.08" layer="97" align="top-left">Pinhedders</text>
 <text x="5.08" y="205.74" size="5.08" layer="97" align="top-left">Current-shunt and power monitor</text>
-<text x="185.42" y="5.08" size="5.08" layer="94" ratio="10" align="center-left">May 1, 2024</text>
+<text x="185.42" y="5.08" size="5.08" layer="94" ratio="10" align="center-left">May 25, 2024</text>
 <text x="185.42" y="25.4" size="5.08" layer="94" ratio="10" align="center-left">SUSTAINA Power Monitor Module</text>
 <text x="269.24" y="15.24" size="5.08" layer="94" ratio="10" align="center-left">3.0</text>
 <text x="274.32" y="5.08" size="5.08" layer="94" ratio="10" align="center-left">1/1</text>
