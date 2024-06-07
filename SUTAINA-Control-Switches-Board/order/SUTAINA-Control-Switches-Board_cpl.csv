@@ -1,0 +1,19 @@
+Designator,Mid X,Mid Y,Layer,Rotation
+C1,3.18,-4.45,Bottom,180
+C2,3.18,3.81,Bottom,180
+C3,-6.35,2.86,Bottom,90
+D1,6.35,0,Bottom,90
+D2,-3.18,-2.54,Bottom,270
+IC1,3.18,0,Bottom,90
+IC2,-3.81,2.86,Bottom,270
+LED5,-24.77,6.99,Bottom,270
+LED6,24.45,6.99,Bottom,270
+R1,-26.04,6.99,Bottom,90
+R2,25.72,6.99,Bottom,90
+R3,-6.35,0,Bottom,180
+R4,-5.71,-2.54,Bottom,90
+R5,-6.35,-5.08,Bottom,180
+LED1,-22.86,0,Top,270
+LED2,-7.62,0,Top,90
+LED3,7.62,0,Top,90
+LED4,22.86,0,Top,90
