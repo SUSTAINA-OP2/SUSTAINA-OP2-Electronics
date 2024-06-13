@@ -1,78 +1,90 @@
 <h1 align="center">
     Printed Circuit Boards for SUSTAINA-OP2&trade;
 </h1>
-<p align="center">
-    <table>
-        <tr>
-            <td align="center">Constant Voltage Board</td>
-            <td align="center">PMX Control Board</td>
-            <td align="center">Power Distribution Board</td>
-        </tr>
-        <tr>
-            <td align="center"><img src="./SUSTAINA-Constant-Voltage-Board/images/brd_top.png" width="160px"></td>
-            <td align="center"><img src="./SUSTAINA-PMX-Control-Board/images/brd_top.png" width="160px"></td>
-            <td align="center"><img src="./SUSTAINA-Power-Distribution-Board/images/brd_top.png" width="160px"></td>
-        </tr>
-        <tr>
-            <td align="center">Power Logging Board</td>
-            <td align="center">Power Monitor Module</td>
-            <td align="center">SBC Power Board</td>
-        </tr>
-        <tr>
-            <td align="center"><img src="./SUSTAINA-Power-Logging-Board/images/brd_top.png" width="160px"></td>
-            <td align="center"><img src="./SUSTAINA-Power-Monitor-Module/images/top.png" width="160px"></td>
-            <td align="center"><img src="./SUSTAINA-SBC-Power-Board/images/brd_top.png" width="160px"></td>
-        </tr>
-        <tr>
-            <td align="center">Strain Gauge Sensing Board</td>
-            <td align="center">USB to Quad RS-485 Conv. Module</td>
-            <td align="center">Power Supply Switching Board</td>
-        </tr>
-        <tr>
-            <td align="center"><img src="./SUSTAINA-StrainGauge-Sensing-Board/images/brd_top.png" width="160px"></td>
-            <td align="center"><img src="./SUSTAINA-USB-to-Quad-RS-485-Conv-Module/images/brd_top.png" width="160px"></td>
-            <td align="center"><img src="./SUSTAINA-Power-Supply-Switching-Board/images/brd_top.png" width="160px"></td>
-        </tr>
-        <tr>
-            <td align="center">SCI Extension Board</td>
-            <td align="center">Control Switches Board</td>
-            <td align="center"></td>
-        </tr>
-        <tr>
-            <td align="center"><img src="./SUSTAINA-SCI-Extension-Board/images/brd_top.png" width="160px"></td>
-            <td align="center"><img src="./SUTAINA-Control-Switches-Board/images/brd_top.png" width="160px"></td>
-            <td align="center"><img src="" width="160px"></td>
-        </tr>
-    </table>
-</P>
+<table align="center">
+    <tr>
+        <td align="center"><a href="./SUSTAINA-Constant-Voltage-Board">Constant Voltage Board</a></td>
+        <td align="center"><a href="./SUTAINA-Control-Switches-Board">Control Switches Board</a></td>
+        <td align="center"><a href="./SUSTAINA-PMX-Control-Board">PMX Control Board</a></td>
+    </tr>
+    <tr>
+        <td align="center"><img src="./SUSTAINA-Constant-Voltage-Board/images/brd_top.png" width="160px"></td>
+        <td align="center"><img src="./SUSTAINA-Control-Switches-Board/images/brd_top.png" width="160px"></td>
+        <td align="center"><img src="./SUSTAINA-PMX-Control-Board/images/brd_top.png" width="160px"></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="./SUSTAINA-Power-Logging-Board">Power Logging Board</a></td>
+        <td align="center"><a href="./SUSTAINA-Power-Distribution-Board">Power Distribution Board</a></td>
+        <td align="center"><a href="./SUSTAINA-Power-Supply-Switching-Board">Power Supply Switching Board</a></td>
+    </tr>
+    <tr>
+        <td align="center"><img src="./SUSTAINA-Power-Distribution-Board/images/brd_top.png" width="160px"></td>
+        <td align="center"><img src="./SUSTAINA-Power-Logging-Board/images/brd_top.png" width="160px"></td>
+        <td align="center"><img src="./SUSTAINA-Power-Supply-Switching-Board/images/brd_top.png" width="160px"></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="./SUSTAINA-SBC-Power-Board">SBC Power Board</a></td>
+        <td align="center"><a href="./SUSTAINA-SCI-Extension-Board">SCI Extension Board</a></td>
+        <td align="center"><a href="./SUSTAINA-StrainGauge-Sensing-Board">Strain Gauge Sensing Board</a></td>
+    </tr>
+    <tr>
+        <td align="center"><img src="./SUSTAINA-SBC-Power-Board/images/brd_top.png" width="160px"></td>
+        <td align="center"><img src="./SUSTAINA-SCI-Extension-Board/images/brd_top.png" width="160px"></td>
+        <td align="center"><img src="./SUSTAINA-StrainGauge-Sensing-Board/images/brd_top.png" width="160px"></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="./SUSTAINA-Power-Monitor-Module">Power Monitor Module</a></td>
+        <td align="center"><a href="./SUSTAINA-USB-to-Quad-RS-485-Conv-Module">USB to Quad RS-485 Conv. Module</a></td>
+        <td align="center"></td>
+    </tr>
+    <tr>
+        <td align="center"><img src="./SUSTAINA-Power-Monitor-Module/images/top.png" width="160px"></td>
+        <td align="center"><img src="./SUSTAINA-USB-to-Quad-RS-485-Conv-Module/images/brd_top.png" width="160px"></td>
+        <td align="center"><img src="" width="160px"></td>
+    </tr>
+</table>
 
 > [!NOTE]
-> This repository provides design and order data for PCBs of [SUSTAINA-OP2&trade;](https://github.com/SUSTAINA-OP/SUSTAINA-OP2).
+> This repository provides design and order data for PCBs of SUSTAINA-OP2&trade;.<br>
+> Other SUSTAINA-OP2&trade; contents
+> - Mechanical: https://github.com/SUSTAINA-OP/SUSTAINA-OP2
+> - Firmware: https://github.com/SUSTAINA-OP/SUSTAINA-OP2-Firmware
 
 ## Features of SUSTAINA-OP2&trade;'s PCBs
 
-All SUSTAINA-OP PCBs are compatible with PCBA (Print Curcuit Board Assembly) in order to reduce the production barriers (e.g. selection and mounting of electronic components) before they are mounted on the robot (except for missing and some components).
+All SUSTAINA-OP PCBs are compatible with PCBA (Print Curcuit Board Assembly) in order to reduce the production barriers (e.g. selection and assembly of electronic components) before they are assembled on the robot (except for missing and some components).
 
 The PCB fabrication and PCBA used for all SUSTAINA-OP2 are outsourced to JLCPCB.
 
 > [!WARNING]
-> Some components to be mounted on the PCB (e.g. not in stock or not handled)  cannot be mounted using PCBA and must be mounted by yourself.
+> Some components to be assembled on the PCB (e.g. not in stock or not handled)  cannot be assembled using PCBA and must be assembled by yourself.
 
 > [!CAUTION]
-> JLCPCB is not a sponsor of SUSTAINA-OP.
+> JLCPCB is not a sponsor of SUSTAINA-OP&trade;.
 
 ## Repository Contents
 
-SUSTAINA-OP2&trade; PCBs can be divided into two main categories.  
-The first is Module, which is a single package of sensors, conversion circuits, etc. in functional units, and can be easily replaced.  
-The second is the Board, which is a multi-functional PCB that contains modules and other components.
+The PCBs of SUSTAINA-OP2&trade; can be divided into two main categories.
+The first is the "module," which packages sensors, conversion circuits, etc. in functional units on a single board and can be easily replaced.
+The second is " board", which is a multifunctional PCB with modules and other components.
 
 ### Boards
+- [Constant Voltage Board](./SUSTAINA-Constant-Voltage-Board)
+- [Control Switches Board](./SUTAINA-Control-Switches-Board)
+- [PMX Control Board](./SUSTAINA-PMX-Control-Board)
+- [Power Logging Board](./SUSTAINA-Power-Logging-Board)
+- [Power Distribution Board](./SUSTAINA-Power-Distribution-Board)
+- [Power Supply Switching Board](./SUSTAINA-Power-Supply-Switching-Board)
+- [SBC Power Board](./SUSTAINA-SBC-Power-Board)
+- [SCI Extension Board](./SUSTAINA-SCI-Extension-Board)
+- [StrainGauge Sensing Board](./SUSTAINA-StrainGauge-Sensing-Board)
 
 ### Modules
+- [Power Monitor Module](./SUSTAINA-Power-Monitor-Module)
+- [USB to Quad RS-485 Conv. Module](./SUSTAINA-USB-to-Quad-RS-485-Conv-Module)
 
 ## Development Environment
-The PCBs for SUSTAINA-OP2 were designed in **Autodesk Eagle 9.6.2**.
+The PCBs for SUSTAINA-OP2&trade; were designed in **Autodesk Eagle 9.6.2**.
 
 ## License Information
 This product is open source. Please review the [LICENSE(EN)](/LICENSE) / [LICENSE(JA)](/LICENSE-JA) for license information.
@@ -91,6 +103,9 @@ This product by Masato Kubotera is licensed under a [CC BY-NC-SA 4.0 DEED](http:
 > - **Reference & Citation**  
 >   To reference and/or cite the work contained in this repository, please use the following publications:
 >   - Kubotera, M. and Hayashibara, Y.: SUSTAINA-OP&trade;: Kid-sized Open Hardware Platform Humanoid Robot with Emphasis on Sustainability. RoboCup 2023: Robot World Cup XXVI, pp.166–178 (2024) [Springer](https://link.springer.com/chapter/10.1007/978-3-031-55015-7_14)
+>
+>     **The paper is about SUSTAINA-OP&trade;. Publications on SUSTAINA-OP2&trade; will be published soon.**
+
 
 ## Contact
 If you have any questions, please contact the designer of this product, Masato Kubodera, by [E-mail](masatokubotera06@yahoo.co.jp).
