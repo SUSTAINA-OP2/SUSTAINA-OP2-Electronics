@@ -52,21 +52,18 @@
 
 ## Features of SUSTAINA-OP2&trade;'s PCBs
 
-All SUSTAINA-OP PCBs are compatible with PCBA (Print Curcuit Board Assembly) in order to reduce the production barriers (e.g. selection and assembly of electronic components) before they are assembled on the robot (except for missing and some components).
+All PCBs for SUSTAINA-OP are compatible with PCBA, which can reduce production barriers (such as selecting and assembling electronic components) before they are assembled into robots.
 
-The PCB fabrication and PCBA used for all SUSTAINA-OP2 are outsourced to JLCPCB.
+The PCB fabrication and PCBA used for all SUSTAINA-OP2 are outsourced to JLCPCB!
 
 > [!WARNING]
 > Some components to be assembled on the PCB (e.g. not in stock or not handled)  cannot be assembled using PCBA and must be assembled by yourself.
 
-> [!CAUTION]
-> JLCPCB is not a sponsor of SUSTAINA-OP&trade;.
-
 ## Repository Contents
 
-The PCBs of SUSTAINA-OP2&trade; can be divided into two main categories.
-The first is the "module," which packages sensors, conversion circuits, etc. in functional units on a single board and can be easily replaced.
-The second is " board", which is a multifunctional PCB with modules and other components.
+The PCBs of SUSTAINA-OP2&trade; can be divided into two main categories.<br>
+The first is "module," which packages sensors, conversion circuits, etc. in functional units on a single board and can be easily replaced.<br>
+The second is "board", which is a multifunctional PCB with modules and other components.
 
 ### Boards
 - [Constant Voltage Board](./SUSTAINA-Constant-Voltage-Board)
